@@ -1,0 +1,77 @@
+2023-06-22 11:35:32,291 -        meta learning: [    INFO] - [INFO] checkpoint saved to: /data/floyed/meta/train/PGPE-MLPSnnPolicy-halfcheetah_vel--20230622-113532
+2023-06-22 11:35:32,292 -        meta learning: [    INFO] - [INFO] tensorboard dir set to: ./runs/PGPE-MLPSnnPolicy-halfcheetah_vel--20230622-113532
+2023-06-22 11:35:32,292 -        meta learning: [    INFO] - [ARGS]: Namespace(env='halfcheetah_vel', policy='MLPSnnPolicy', algo='PGPE', hidden_dims=[128], pop_size=256, center_lr=0.01, init_std=0.04, decay_std=0.999, limit_std=0.001, std_lr=0.07, terminate_when_unhealthy=False, max_iters=300000, num_tasks=8, seed=41, num_tests=128, eval_epoch=10, eval=False, eval_with_injury=False, resume='', root_dir='/data/floyed/meta', tensorboard_dir='./runs', suffix='', output_dir='/data/floyed/meta/train/PGPE-MLPSnnPolicy-halfcheetah_vel--20230622-113532', summary_writer=<torch.utils.tensorboard.writer.SummaryWriter object at 0x7fdabc417ac0>, tb_prefix='PGPE/halfcheetah_vel/MLPSnnPolicy')
+2023-06-22 11:35:44,674 -            MLPPolicy: [    INFO] - MLPPolicy.num_params = 3334
+2023-06-22 11:35:44,675 -        meta learning: [    INFO] - [Total Params]: params=3334
+2023-06-22 11:35:44,741 -           SimManager: [    INFO] - use_for_loop=False
+2023-06-22 11:43:29,513 -        meta learning: [    INFO] - [Train]: 10, best=-4445.67, avg=-4593.13, std=53.31, steps=1.801e+08
+2023-06-22 11:50:09,971 -        meta learning: [    INFO] - [Train]: 20, best=-3646.20, avg=-3749.23, std=57.54, steps=3.438e+08
+2023-06-22 11:56:50,542 -        meta learning: [    INFO] - [Train]: 30, best=-3224.55, avg=-3315.01, std=63.18, steps=5.075e+08
+2023-06-22 12:03:30,731 -        meta learning: [    INFO] - [Train]: 40, best=-3170.79, avg=-3248.74, std=48.65, steps=6.712e+08
+2023-06-22 12:10:11,123 -        meta learning: [    INFO] - [Train]: 50, best=-3137.22, avg=-3199.04, std=26.91, steps=8.349e+08
+2023-06-22 12:16:51,050 -        meta learning: [    INFO] - [Train]: 60, best=-3115.70, avg=-3167.86, std=39.21, steps=9.985e+08
+2023-06-22 12:23:30,818 -        meta learning: [    INFO] - [Train]: 70, best=-3095.89, avg=-3142.85, std=36.54, steps=1.162e+09
+2023-06-22 12:30:10,703 -        meta learning: [    INFO] - [Train]: 80, best=-3070.52, avg=-3118.02, std=30.83, steps=1.326e+09
+2023-06-22 12:36:51,715 -        meta learning: [    INFO] - [Train]: 90, best=-3047.86, avg=-3085.82, std=32.33, steps=1.490e+09
+2023-06-22 12:43:32,787 -        meta learning: [    INFO] - [Train]: 100, best=-2940.47, avg=-2982.42, std=28.42, steps=1.653e+09
+2023-06-22 12:50:12,786 -        meta learning: [    INFO] - [Train]: 110, best=-2874.94, avg=-2928.05, std=41.17, steps=1.817e+09
+2023-06-22 12:56:52,976 -        meta learning: [    INFO] - [Train]: 120, best=-2854.08, avg=-2901.80, std=33.62, steps=1.981e+09
+2023-06-22 13:03:33,948 -        meta learning: [    INFO] - [Train]: 130, best=-2596.49, avg=-2688.04, std=87.18, steps=2.144e+09
+2023-06-22 13:10:14,498 -        meta learning: [    INFO] - [Train]: 140, best=-2498.07, avg=-2550.59, std=37.53, steps=2.308e+09
+2023-06-22 13:16:56,002 -        meta learning: [    INFO] - [Train]: 150, best=-2467.43, avg=-2529.44, std=63.34, steps=2.472e+09
+2023-06-22 13:23:35,670 -        meta learning: [    INFO] - [Train]: 160, best=-2442.09, avg=-2507.25, std=48.59, steps=2.636e+09
+2023-06-22 13:30:15,587 -        meta learning: [    INFO] - [Train]: 170, best=-2432.67, avg=-2496.92, std=59.44, steps=2.799e+09
+2023-06-22 13:36:55,344 -        meta learning: [    INFO] - [Train]: 180, best=-2426.45, avg=-2494.76, std=74.16, steps=2.963e+09
+2023-06-22 13:43:35,740 -        meta learning: [    INFO] - [Train]: 190, best=-2408.47, avg=-2477.25, std=82.46, steps=3.127e+09
+2023-06-22 13:50:16,261 -        meta learning: [    INFO] - [Train]: 200, best=-2397.19, avg=-2474.09, std=71.27, steps=3.290e+09
+2023-06-22 13:56:56,521 -        meta learning: [    INFO] - [Train]: 210, best=-2394.61, avg=-2456.36, std=64.87, steps=3.454e+09
+2023-06-22 14:03:36,638 -        meta learning: [    INFO] - [Train]: 220, best=-2387.77, avg=-2453.49, std=74.56, steps=3.618e+09
+2023-06-22 14:10:16,671 -        meta learning: [    INFO] - [Train]: 230, best=-2377.64, avg=-2440.53, std=65.33, steps=3.781e+09
+2023-06-22 14:16:56,997 -        meta learning: [    INFO] - [Train]: 240, best=-2349.73, avg=-2436.89, std=76.06, steps=3.945e+09
+2023-06-22 14:23:36,794 -        meta learning: [    INFO] - [Train]: 250, best=-2351.70, avg=-2429.88, std=87.27, steps=4.109e+09
+2023-06-22 14:30:17,031 -        meta learning: [    INFO] - [Train]: 260, best=-2349.71, avg=-2416.57, std=71.90, steps=4.272e+09
+2023-06-22 14:36:57,330 -        meta learning: [    INFO] - [Train]: 270, best=-2347.89, avg=-2419.53, std=86.96, steps=4.436e+09
+2023-06-22 14:43:36,877 -        meta learning: [    INFO] - [Train]: 280, best=-2333.17, avg=-2405.62, std=84.24, steps=4.600e+09
+2023-06-22 14:50:16,195 -        meta learning: [    INFO] - [Train]: 290, best=-2335.31, avg=-2398.67, std=70.95, steps=4.764e+09
+2023-06-22 14:56:56,294 -        meta learning: [    INFO] - [Train]: 300, best=-2327.89, avg=-2409.92, std=99.90, steps=4.927e+09
+2023-06-22 15:03:36,459 -        meta learning: [    INFO] - [Train]: 310, best=-2319.64, avg=-2395.18, std=68.89, steps=5.091e+09
+2023-06-22 15:10:16,847 -        meta learning: [    INFO] - [Train]: 320, best=-2320.41, avg=-2401.36, std=89.46, steps=5.255e+09
+2023-06-22 15:16:57,079 -        meta learning: [    INFO] - [Train]: 330, best=-2332.18, avg=-2396.33, std=77.64, steps=5.418e+09
+2023-06-22 15:23:37,848 -        meta learning: [    INFO] - [Train]: 340, best=-2308.02, avg=-2389.51, std=84.18, steps=5.582e+09
+2023-06-22 15:30:18,305 -        meta learning: [    INFO] - [Train]: 350, best=-2304.56, avg=-2384.05, std=80.64, steps=5.746e+09
+2023-06-22 15:36:58,782 -        meta learning: [    INFO] - [Train]: 360, best=-2298.78, avg=-2383.70, std=80.72, steps=5.909e+09
+2023-06-22 15:43:39,246 -        meta learning: [    INFO] - [Train]: 370, best=-2304.28, avg=-2368.17, std=77.16, steps=6.073e+09
+2023-06-22 15:50:19,859 -        meta learning: [    INFO] - [Train]: 380, best=-2299.52, avg=-2364.02, std=51.27, steps=6.237e+09
+2023-06-22 15:56:59,958 -        meta learning: [    INFO] - [Train]: 390, best=-2274.66, avg=-2369.70, std=93.52, steps=6.401e+09
+2023-06-22 16:03:40,411 -        meta learning: [    INFO] - [Train]: 400, best=-2296.64, avg=-2364.26, std=62.28, steps=6.564e+09
+2023-06-22 16:10:21,456 -        meta learning: [    INFO] - [Train]: 410, best=-2280.71, avg=-2354.80, std=65.00, steps=6.728e+09
+2023-06-22 16:17:01,526 -        meta learning: [    INFO] - [Train]: 420, best=-2282.05, avg=-2350.45, std=53.68, steps=6.892e+09
+2023-06-22 16:23:41,889 -        meta learning: [    INFO] - [Train]: 430, best=-2281.21, avg=-2339.90, std=67.25, steps=7.055e+09
+2023-06-22 16:30:22,826 -        meta learning: [    INFO] - [Train]: 440, best=-2281.76, avg=-2333.88, std=55.04, steps=7.219e+09
+2023-06-22 16:37:02,474 -        meta learning: [    INFO] - [Train]: 450, best=-2269.07, avg=-2333.41, std=67.27, steps=7.383e+09
+2023-06-22 16:43:43,569 -        meta learning: [    INFO] - [Train]: 460, best=-2265.07, avg=-2335.85, std=81.20, steps=7.546e+09
+2023-06-22 16:50:23,381 -        meta learning: [    INFO] - [Train]: 470, best=-2262.84, avg=-2324.19, std=68.04, steps=7.710e+09
+2023-06-22 16:57:03,647 -        meta learning: [    INFO] - [Train]: 480, best=-2248.38, avg=-2328.66, std=80.26, steps=7.874e+09
+2023-06-22 17:03:43,680 -        meta learning: [    INFO] - [Train]: 490, best=-2247.85, avg=-2326.83, std=88.52, steps=8.038e+09
+2023-06-22 17:10:24,070 -        meta learning: [    INFO] - [Train]: 500, best=-2254.05, avg=-2311.46, std=50.56, steps=8.201e+09
+2023-06-22 17:17:04,827 -        meta learning: [    INFO] - [Train]: 510, best=-2246.34, avg=-2321.80, std=71.30, steps=8.365e+09
+2023-06-22 17:23:45,950 -        meta learning: [    INFO] - [Train]: 520, best=-2247.77, avg=-2316.13, std=54.37, steps=8.529e+09
+2023-06-22 17:30:26,237 -        meta learning: [    INFO] - [Train]: 530, best=-2231.82, avg=-2315.84, std=80.06, steps=8.692e+09
+2023-06-22 17:37:06,696 -        meta learning: [    INFO] - [Train]: 540, best=-2246.07, avg=-2315.59, std=73.27, steps=8.856e+09
+2023-06-22 17:43:47,389 -        meta learning: [    INFO] - [Train]: 550, best=-2236.88, avg=-2309.25, std=63.32, steps=9.020e+09
+2023-06-22 17:50:28,486 -        meta learning: [    INFO] - [Train]: 560, best=-2244.37, avg=-2304.19, std=53.66, steps=9.183e+09
+2023-06-22 17:57:08,024 -        meta learning: [    INFO] - [Train]: 570, best=-2233.89, avg=-2306.85, std=67.02, steps=9.347e+09
+2023-06-22 18:03:47,937 -        meta learning: [    INFO] - [Train]: 580, best=-2220.71, avg=-2301.49, std=55.87, steps=9.511e+09
+2023-06-22 18:10:28,359 -        meta learning: [    INFO] - [Train]: 590, best=-2239.34, avg=-2308.44, std=83.32, steps=9.674e+09
+2023-06-22 18:17:08,363 -        meta learning: [    INFO] - [Train]: 600, best=-2234.01, avg=-2292.74, std=57.97, steps=9.838e+09
+2023-06-22 18:23:49,586 -        meta learning: [    INFO] - [Train]: 610, best=-2215.41, avg=-2305.63, std=71.03, steps=1.000e+10
+2023-06-22 18:30:29,596 -        meta learning: [    INFO] - [Train]: 620, best=-2227.76, avg=-2296.30, std=60.75, steps=1.017e+10
+2023-06-22 18:37:11,297 -        meta learning: [    INFO] - [Train]: 630, best=-2225.58, avg=-2299.49, std=78.08, steps=1.033e+10
+2023-06-22 18:43:51,269 -        meta learning: [    INFO] - [Train]: 640, best=-2215.68, avg=-2306.51, std=86.60, steps=1.049e+10
+2023-06-22 18:50:31,009 -        meta learning: [    INFO] - [Train]: 650, best=-2232.65, avg=-2299.89, std=72.88, steps=1.066e+10
+2023-06-22 18:57:11,358 -        meta learning: [    INFO] - [Train]: 660, best=-2227.24, avg=-2282.13, std=33.30, steps=1.082e+10
+2023-06-22 19:03:51,793 -        meta learning: [    INFO] - [Train]: 670, best=-2230.13, avg=-2307.14, std=106.76, steps=1.098e+10
+2023-06-22 19:10:32,006 -        meta learning: [    INFO] - [Train]: 680, best=-2233.64, avg=-2300.58, std=83.27, steps=1.115e+10
+2023-06-22 19:17:12,267 -        meta learning: [    INFO] - [Train]: 690, best=-2237.73, avg=-2301.87, std=75.61, steps=1.131e+10
+2023-06-22 19:21:44,477 -        meta learning: [    INFO] - KeyboardInterrupt, Begin eval_with_injury.
+2023-06-22 19:21:44,477 -        meta learning: [    INFO] - [OUTPUT DIR]: /data/floyed/meta/train/PGPE-MLPSnnPolicy-halfcheetah_vel--20230622-113532

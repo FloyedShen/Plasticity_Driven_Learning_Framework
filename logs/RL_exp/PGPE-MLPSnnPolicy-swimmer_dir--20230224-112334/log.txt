@@ -1,0 +1,86 @@
+2023-02-24 11:23:34,908 -        meta learning: [    INFO] - [INFO] checkpoint saved to: /data/floyed/meta/train/PGPE-MLPSnnPolicy-swimmer_dir--20230224-112334
+2023-02-24 11:23:34,908 -        meta learning: [    INFO] - [INFO] tensorboard dir set to: ./runs/PGPE-MLPSnnPolicy-swimmer_dir--20230224-112334
+2023-02-24 11:23:34,908 -        meta learning: [    INFO] - [ARGS]: Namespace(env='swimmer_dir', policy='MLPSnnPolicy', algo='PGPE', hidden_dims=[128, 64], pop_size=256, center_lr=0.01, init_std=0.04, decay_std=0.999, limit_std=0.001, std_lr=0.07, terminate_when_unhealthy=False, max_iters=300000, num_tasks=8, seed=42, num_tests=128, eval=False, eval_with_injury=False, resume='', root_dir='/data/floyed/meta', tensorboard_dir='./runs', suffix='', output_dir='/data/floyed/meta/train/PGPE-MLPSnnPolicy-swimmer_dir--20230224-112334', summary_writer=<torch.utils.tensorboard.writer.SummaryWriter object at 0x7f4573cfa0a0>, tb_prefix='PGPE/swimmer_dir/MLPSnnPolicy')
+2023-02-24 11:23:43,548 -            MLPPolicy: [    INFO] - MLPPolicy.num_params = 9666
+2023-02-24 11:23:43,548 -        meta learning: [    INFO] - [Total Params]: params=9666
+2023-02-24 11:23:43,606 -           SimManager: [    INFO] - use_for_loop=False
+2023-02-24 11:27:17,660 -        meta learning: [    INFO] - [Train]: 10, best=6.14, avg=3.11, std=1.11, steps=1.801e+08
+2023-02-24 11:29:29,791 -        meta learning: [    INFO] - [Train]: 20, best=25.53, avg=14.84, std=4.01, steps=3.438e+08
+2023-02-24 11:31:41,969 -        meta learning: [    INFO] - [Train]: 30, best=40.34, avg=27.58, std=4.30, steps=5.075e+08
+2023-02-24 11:33:54,110 -        meta learning: [    INFO] - [Train]: 40, best=39.43, avg=31.22, std=3.88, steps=6.712e+08
+2023-02-24 11:36:06,216 -        meta learning: [    INFO] - [Train]: 50, best=43.08, avg=35.75, std=3.59, steps=8.349e+08
+2023-02-24 11:38:18,403 -        meta learning: [    INFO] - [Train]: 60, best=49.65, avg=42.70, std=3.70, steps=9.985e+08
+2023-02-24 11:40:30,540 -        meta learning: [    INFO] - [Train]: 70, best=53.73, avg=44.49, std=3.79, steps=1.162e+09
+2023-02-24 11:42:42,733 -        meta learning: [    INFO] - [Train]: 80, best=56.90, avg=47.41, std=4.06, steps=1.326e+09
+2023-02-24 11:44:54,898 -        meta learning: [    INFO] - [Train]: 90, best=52.28, avg=46.00, std=3.68, steps=1.490e+09
+2023-02-24 11:47:07,036 -        meta learning: [    INFO] - [Train]: 100, best=56.45, avg=47.89, std=3.97, steps=1.653e+09
+2023-02-24 11:49:19,231 -        meta learning: [    INFO] - [Train]: 110, best=57.72, avg=49.36, std=3.81, steps=1.817e+09
+2023-02-24 11:51:31,280 -        meta learning: [    INFO] - [Train]: 120, best=59.32, avg=49.05, std=3.81, steps=1.981e+09
+2023-02-24 11:53:43,315 -        meta learning: [    INFO] - [Train]: 130, best=58.44, avg=48.25, std=3.90, steps=2.144e+09
+2023-02-24 11:55:55,169 -        meta learning: [    INFO] - [Train]: 140, best=57.29, avg=48.26, std=4.08, steps=2.308e+09
+2023-02-24 11:58:07,044 -        meta learning: [    INFO] - [Train]: 150, best=58.61, avg=49.05, std=3.91, steps=2.472e+09
+2023-02-24 12:00:18,935 -        meta learning: [    INFO] - [Train]: 160, best=56.39, avg=49.00, std=3.65, steps=2.636e+09
+2023-02-24 12:02:30,826 -        meta learning: [    INFO] - [Train]: 170, best=57.52, avg=49.95, std=3.67, steps=2.799e+09
+2023-02-24 12:04:42,679 -        meta learning: [    INFO] - [Train]: 180, best=57.08, avg=48.75, std=4.03, steps=2.963e+09
+2023-02-24 12:06:54,541 -        meta learning: [    INFO] - [Train]: 190, best=57.68, avg=48.37, std=4.31, steps=3.127e+09
+2023-02-24 12:09:06,413 -        meta learning: [    INFO] - [Train]: 200, best=58.30, avg=48.52, std=3.81, steps=3.290e+09
+2023-02-24 12:11:18,273 -        meta learning: [    INFO] - [Train]: 210, best=59.15, avg=48.01, std=4.07, steps=3.454e+09
+2023-02-24 12:13:30,141 -        meta learning: [    INFO] - [Train]: 220, best=58.26, avg=48.77, std=3.69, steps=3.618e+09
+2023-02-24 12:15:42,010 -        meta learning: [    INFO] - [Train]: 230, best=57.59, avg=48.46, std=3.99, steps=3.781e+09
+2023-02-24 12:17:53,896 -        meta learning: [    INFO] - [Train]: 240, best=56.73, avg=48.69, std=3.04, steps=3.945e+09
+2023-02-24 12:20:05,759 -        meta learning: [    INFO] - [Train]: 250, best=57.02, avg=49.33, std=3.51, steps=4.109e+09
+2023-02-24 12:22:17,614 -        meta learning: [    INFO] - [Train]: 260, best=57.40, avg=48.81, std=3.38, steps=4.272e+09
+2023-02-24 12:24:29,496 -        meta learning: [    INFO] - [Train]: 270, best=57.86, avg=49.78, std=3.42, steps=4.436e+09
+2023-02-24 12:26:41,378 -        meta learning: [    INFO] - [Train]: 280, best=59.50, avg=50.16, std=3.65, steps=4.600e+09
+2023-02-24 12:28:53,266 -        meta learning: [    INFO] - [Train]: 290, best=58.75, avg=50.50, std=3.55, steps=4.764e+09
+2023-02-24 12:31:05,148 -        meta learning: [    INFO] - [Train]: 300, best=57.92, avg=49.64, std=3.55, steps=4.927e+09
+2023-02-24 12:33:17,042 -        meta learning: [    INFO] - [Train]: 310, best=58.13, avg=49.82, std=3.83, steps=5.091e+09
+2023-02-24 12:35:28,928 -        meta learning: [    INFO] - [Train]: 320, best=59.35, avg=51.52, std=3.29, steps=5.255e+09
+2023-02-24 12:37:40,817 -        meta learning: [    INFO] - [Train]: 330, best=58.77, avg=49.63, std=3.93, steps=5.418e+09
+2023-02-24 12:39:52,701 -        meta learning: [    INFO] - [Train]: 340, best=58.06, avg=49.53, std=4.05, steps=5.582e+09
+2023-02-24 12:42:04,592 -        meta learning: [    INFO] - [Train]: 350, best=60.52, avg=50.21, std=4.25, steps=5.746e+09
+2023-02-24 12:44:16,472 -        meta learning: [    INFO] - [Train]: 360, best=60.02, avg=50.71, std=3.71, steps=5.909e+09
+2023-02-24 12:46:28,343 -        meta learning: [    INFO] - [Train]: 370, best=58.97, avg=51.17, std=3.94, steps=6.073e+09
+2023-02-24 12:48:40,249 -        meta learning: [    INFO] - [Train]: 380, best=58.45, avg=50.13, std=3.71, steps=6.237e+09
+2023-02-24 12:50:52,137 -        meta learning: [    INFO] - [Train]: 390, best=59.74, avg=49.91, std=3.59, steps=6.401e+09
+2023-02-24 12:53:04,046 -        meta learning: [    INFO] - [Train]: 400, best=57.18, avg=48.98, std=3.42, steps=6.564e+09
+2023-02-24 12:55:15,912 -        meta learning: [    INFO] - [Train]: 410, best=57.28, avg=50.08, std=3.38, steps=6.728e+09
+2023-02-24 12:57:27,850 -        meta learning: [    INFO] - [Train]: 420, best=56.56, avg=49.40, std=3.60, steps=6.892e+09
+2023-02-24 12:59:39,737 -        meta learning: [    INFO] - [Train]: 430, best=57.66, avg=50.09, std=3.91, steps=7.055e+09
+2023-02-24 13:01:51,629 -        meta learning: [    INFO] - [Train]: 440, best=60.50, avg=51.02, std=3.40, steps=7.219e+09
+2023-02-24 13:04:03,495 -        meta learning: [    INFO] - [Train]: 450, best=58.17, avg=50.02, std=3.98, steps=7.383e+09
+2023-02-24 13:06:15,360 -        meta learning: [    INFO] - [Train]: 460, best=60.51, avg=51.64, std=4.14, steps=7.546e+09
+2023-02-24 13:08:27,247 -        meta learning: [    INFO] - [Train]: 470, best=60.26, avg=49.99, std=3.84, steps=7.710e+09
+2023-02-24 13:10:39,126 -        meta learning: [    INFO] - [Train]: 480, best=61.73, avg=50.41, std=3.68, steps=7.874e+09
+2023-02-24 13:12:50,985 -        meta learning: [    INFO] - [Train]: 490, best=59.68, avg=49.86, std=3.86, steps=8.038e+09
+2023-02-24 13:15:02,878 -        meta learning: [    INFO] - [Train]: 500, best=61.05, avg=52.18, std=3.67, steps=8.201e+09
+2023-02-24 13:17:14,733 -        meta learning: [    INFO] - [Train]: 510, best=59.18, avg=50.49, std=4.11, steps=8.365e+09
+2023-02-24 13:19:26,615 -        meta learning: [    INFO] - [Train]: 520, best=60.41, avg=50.11, std=4.00, steps=8.529e+09
+2023-02-24 13:21:38,488 -        meta learning: [    INFO] - [Train]: 530, best=58.01, avg=50.02, std=3.90, steps=8.692e+09
+2023-02-24 13:23:50,369 -        meta learning: [    INFO] - [Train]: 540, best=58.38, avg=50.51, std=3.84, steps=8.856e+09
+2023-02-24 13:26:02,239 -        meta learning: [    INFO] - [Train]: 550, best=57.61, avg=50.89, std=3.54, steps=9.020e+09
+2023-02-24 13:28:14,096 -        meta learning: [    INFO] - [Train]: 560, best=62.54, avg=52.66, std=3.85, steps=9.183e+09
+2023-02-24 13:30:25,962 -        meta learning: [    INFO] - [Train]: 570, best=59.13, avg=50.86, std=3.37, steps=9.347e+09
+2023-02-24 13:32:37,824 -        meta learning: [    INFO] - [Train]: 580, best=59.93, avg=50.45, std=3.90, steps=9.511e+09
+2023-02-24 13:34:49,693 -        meta learning: [    INFO] - [Train]: 590, best=61.27, avg=51.44, std=3.81, steps=9.674e+09
+2023-02-24 13:37:01,542 -        meta learning: [    INFO] - [Train]: 600, best=61.35, avg=50.52, std=3.95, steps=9.838e+09
+2023-02-24 13:39:13,403 -        meta learning: [    INFO] - [Train]: 610, best=59.14, avg=50.67, std=3.43, steps=1.000e+10
+2023-02-24 13:41:25,254 -        meta learning: [    INFO] - [Train]: 620, best=60.34, avg=50.86, std=4.19, steps=1.017e+10
+2023-02-24 13:43:37,118 -        meta learning: [    INFO] - [Train]: 630, best=59.28, avg=50.00, std=3.85, steps=1.033e+10
+2023-02-24 13:45:48,992 -        meta learning: [    INFO] - [Train]: 640, best=60.39, avg=51.15, std=3.73, steps=1.049e+10
+2023-02-24 13:48:00,872 -        meta learning: [    INFO] - [Train]: 650, best=57.67, avg=49.47, std=3.92, steps=1.066e+10
+2023-02-24 13:50:12,752 -        meta learning: [    INFO] - [Train]: 660, best=60.56, avg=50.47, std=3.73, steps=1.082e+10
+2023-02-24 13:52:24,623 -        meta learning: [    INFO] - [Train]: 670, best=58.94, avg=50.36, std=3.80, steps=1.098e+10
+2023-02-24 13:54:36,487 -        meta learning: [    INFO] - [Train]: 680, best=60.28, avg=51.72, std=3.60, steps=1.115e+10
+2023-02-24 13:56:48,342 -        meta learning: [    INFO] - [Train]: 690, best=58.46, avg=50.89, std=3.45, steps=1.131e+10
+2023-02-24 13:59:00,204 -        meta learning: [    INFO] - [Train]: 700, best=57.42, avg=49.72, std=3.68, steps=1.148e+10
+2023-02-24 14:01:12,107 -        meta learning: [    INFO] - [Train]: 710, best=56.62, avg=48.93, std=3.43, steps=1.164e+10
+2023-02-24 14:03:23,999 -        meta learning: [    INFO] - [Train]: 720, best=59.68, avg=49.60, std=4.07, steps=1.180e+10
+2023-02-24 14:05:35,890 -        meta learning: [    INFO] - [Train]: 730, best=64.07, avg=51.58, std=3.73, steps=1.197e+10
+2023-02-24 14:07:47,784 -        meta learning: [    INFO] - [Train]: 740, best=59.50, avg=51.11, std=4.06, steps=1.213e+10
+2023-02-24 14:09:59,666 -        meta learning: [    INFO] - [Train]: 750, best=58.78, avg=51.18, std=3.49, steps=1.229e+10
+2023-02-24 14:12:11,546 -        meta learning: [    INFO] - [Train]: 760, best=60.09, avg=50.22, std=4.06, steps=1.246e+10
+2023-02-24 14:14:23,421 -        meta learning: [    INFO] - [Train]: 770, best=59.09, avg=51.26, std=3.65, steps=1.262e+10
+2023-02-24 14:16:35,310 -        meta learning: [    INFO] - [Train]: 780, best=58.25, avg=50.03, std=3.55, steps=1.278e+10
+2023-02-24 14:18:42,379 -        meta learning: [    INFO] - KeyboardInterrupt, Begin eval_with_injury.
+2023-02-24 14:18:42,379 -        meta learning: [    INFO] - [OUTPUT DIR]: /data/floyed/meta/train/PGPE-MLPSnnPolicy-swimmer_dir--20230224-112334
