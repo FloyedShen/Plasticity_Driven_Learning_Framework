@@ -1,4 +1,4 @@
-# Code for Metaplasticity: Unifying Learning and Homeostatic Plasticity in Spiking Neural Networks
+# Code for Learning the Plasticity: Plasticity-Driven Learning Framework in Spiking Neural Networks
 
 ## Requirements
 
